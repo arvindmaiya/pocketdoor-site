@@ -31,7 +31,7 @@
 <body>
 <main>
   <h1>Pocket Door privacy policy</h1>
-  <p class="date">Effective 9 November 2026</p>
+  <p class="date">Effective 12 November 2026</p>
 
   <div class="short">
     <p><strong>In short:</strong> Pocket Door links your Android phone to your own Windows PC. What it reads on your phone
@@ -51,7 +51,8 @@
   <h3>Notifications</h3>
   <p>With Android's notification access, Pocket Door reads the notifications on your phone (which app, the title, the
   text, pictures and buttons) and sends them to your linked PC, so you can read and answer them there. Replies and button
-  presses you make on the PC are sent back to the phone.</p>
+  presses you make on the PC are sent back to the phone. For a Gmail notification, the PC is also told which of your
+  Gmail accounts it belongs to, so clicking it opens the right inbox.</p>
 
   <h3>Text messages</h3>
   <p>If you turn on Text messages, Pocket Door reads the texts on your phone (who sent them and what they say) so they
@@ -62,6 +63,9 @@
   <p>If you turn on Calls, Pocket Door uses Android's Phone, Call logs and Contacts permissions only to see that your
   phone is ringing and who is calling (their number, and their name and picture from your contacts). That goes to your
   PC while the call rings. Pocket Door does not read your past calls or your contacts list.</p>
+  <p>While Notifications or Calls is on, the PC is also told when a call is under way and when it ends (not who it's
+  with), so it can pause its music and mute its microphone during the call. With both off, the PC isn't told about calls
+  at all.</p>
 
   <h3>Photos and videos</h3>
   <p>If you allow photos, your PC can see the photos and videos on your phone, including where they were taken, so
@@ -74,18 +78,21 @@
 
   <h3>Clipboard and Accessibility</h3>
   <p>Text you copy on the PC can be pasted on the phone, and the other way round. To send what you copy on the phone
-  without a tap, Pocket Door can use Android's Accessibility access, only if you turn it on. It reads the labels of
-  buttons you tap and short pop-up messages in other apps, only to spot words like Copy or Copied. When it sees one,
-  Android lets only the app in front read the clipboard, so Pocket Door opens an invisible window for a moment, reads
-  what you copied and closes the window. What you copied goes to your linked PC. The labels are checked on the phone and
-  thrown away. Without Accessibility, you send what you copied with the Send clipboard button instead.</p>
+  without a tap, Pocket Door can use Android's Accessibility access, only if you turn it on. When you tap something, a
+  menu or window opens, or a pop-up or notification appears in another app, Android shows Pocket Door its words. Pocket
+  Door looks only for words like Copy or Copied. When it sees one, Android lets only the app in front read the clipboard,
+  so Pocket Door opens an invisible window for a moment, reads what you copied and closes the window. What you copied
+  goes to your linked PC. A copy an app marks as private, like a password, goes too, but the PC never shows it and keeps
+  it out of Windows' clipboard history. The words are checked on the phone and thrown away. Without Accessibility, you
+  send what you copied with the Send clipboard button instead.</p>
 
   <h3>Things you send yourself</h3>
   <p>Files, photos, text and links you send with Share › Send to PC, or from the app, go to your linked PC. Files and
   folders sent from the PC are saved in your phone's Downloads folder.</p>
 
   <h3>About the phone itself</h3>
-  <p>The PC is told the phone's name and battery level, so it can show them.</p>
+  <p>The PC is told the phone's name and battery level, so it can show them, and a random number made when the app was
+  installed, so it knows it's the same phone next time.</p>
 
   <h2>Other permissions</h2>
   <ul>
